@@ -25,3 +25,81 @@ let options = {
 };
 console.log(`Custom Date: ${date1.toLocaleString('en-US', options)}`);
 console.log(`Custom Date: ${date1.toLocaleString('ar-KW',)}`);
+
+// Practice: Formatting Dates
+console.log('--- Practice: Formatting Dates ---');
+const now2 = new Date();
+console.log(now2.toLocaleString('en-US', { dateStyle: 'short' }));
+
+// Exercise: Formatting Dates
+// 1. Create a Date object.
+// 2. Use toLocaleDateString with options to format the date.
+// 3. Log the formatted strings.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Answer: Formatting Dates
+// Example solution:
+const now = new Date();
+const optionsAnswer = { weekday: 'long', month: 'short', day: 'numeric' };
+console.log(now.toLocaleDateString('en-US', optionsAnswer));
+console.log(now.toLocaleDateString('en-GB', optionsAnswer));

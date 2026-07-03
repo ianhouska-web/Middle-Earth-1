@@ -38,3 +38,73 @@ let val9 = 10;
 let val10 = --val9;
 console.log(`val9: ${val9} val10: ${val10}`);
 
+// Practice: assignments
+console.log('--- Practice: assignments ---');
+let practiceVal = 5;
+practiceVal += 2;
+console.log(practiceVal);
+
+// Exercise: assignments
+// 1. Declare a number variable.
+// 2. Use +=, -=, *=, and /= on it.
+// 3. Log the value after each change.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Answer: assignments
+// Example solution:
+let number = 10;
+number += 5;
+console.log('After += 5:', number);
+number -= 3;
+console.log('After -= 3:', number);
+number *= 2;
+console.log('After *= 2:', number);
+number /= 4;
+console.log('After /= 4:', number);

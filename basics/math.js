@@ -42,3 +42,71 @@ console.log(`val13: ${val13}`);
 let val14 = 1;
 --val14
 console.log(`val14: ${val14}`);
+
+// Practice: math
+console.log('--- Practice: math ---');
+console.log(2 + 3, 4 * 5);
+
+// Exercise: math
+// 1. Use +, -, *, /, and % with two numbers.
+// 2. Use exponentiation and log the result.
+// 3. Use increment and decrement operators.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Answer: math
+// Example solution:
+console.log('2 + 3 =', 2 + 3);
+console.log('10 - 4 =', 10 - 4);
+console.log('5 * 6 =', 5 * 6);
+console.log('20 / 4 =', 20 / 4);
+console.log('17 % 3 =', 17 % 3);
+console.log('2 ** 5 =', 2 ** 5);
+let count = 1;
+count++;
+console.log('increment:', count);
+count--;
+console.log('decrement:', count);

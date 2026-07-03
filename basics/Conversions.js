@@ -31,4 +31,79 @@ let num1 = 1;
 let num2 = 0;
 let bool1 = Boolean(num1);
 let bool2 = Boolean(num2);
-console.log(`Num1: ${bool1} Num2: {bool2}`);
+console.log(`Num1: ${bool1} Num2: ${bool2}`);
+
+// Practice: conversions
+console.log('--- Practice: conversions ---');
+console.log(Number('10'), String(10), Boolean(0));
+
+// Exercise: conversions
+// 1. Convert a string to a number and log its type.
+// 2. Convert a number to a string and log its type.
+// 3. Convert different values to Boolean and log them.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Answer: conversions
+// Example solution:
+const text = '42';
+const num = Number(text);
+console.log('string to number:', num, typeof num);
+const value = 42;
+const str = String(value);
+console.log('number to string:', str, typeof str);
+console.log('Boolean of empty string:', Boolean(''));
+console.log('Boolean of 1:', Boolean(1));

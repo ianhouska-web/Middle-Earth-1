@@ -31,3 +31,75 @@ console.log(`Yen: ${formatter3.format(monthlySalary)}`);
 
 let formatter4 = new Intl.NumberFormat('zh-HK', {style: 'currency', currency: 'HKD'});
 console.log(`Hong Kong Dollars: ${formatter4.format(monthlySalary)}`);
+
+// Practice: Formatting Numbers
+console.log('--- Practice: Formatting Numbers ---');
+const money = 123456.78;
+console.log(money.toLocaleString('en-US'));
+
+// Exercise: Formatting Numbers
+// 1. Format a number as USD and EUR.
+// 2. Format the same number as a percentage.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Answer: Formatting Numbers
+// Example solution:
+const amount = 123456.78;
+console.log(new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(amount));
+console.log(new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(amount));
+console.log(new Intl.NumberFormat('en-US', { style: 'percent' }).format(0.75));
