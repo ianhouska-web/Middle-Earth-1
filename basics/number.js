@@ -23,80 +23,16 @@ console.log(`Maximum Safe Integer: ${Number.MAX_SAFE_INGETER}`);
 let bigInt1 = 1n;
 let bigInt2 = 1_560_000_000_000_000_000n;
 console.log(bigInt1,bigInt2);
+// Practice section: quick examples to run while learning
 // Practice: number
 console.log('--- Practice: number ---');
 console.log(typeof 12345, 1_234 + 5);
-
+// Exercise section: tasks for you to complete
 // Exercise: number
 // 1. Create a number and log it with toFixed(2).
 // 2. Convert a number to exponential form.
 // 3. Create a BigInt and log it.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Answer section: canonical solution (view after trying the exercise)
 // Answer: number
 // Example solution:
 const value = 123.456;

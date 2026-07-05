@@ -32,71 +32,17 @@ switch (employee.department) {
     default:
         console.log('Meet in Building 3');
 }
+// Practice section: quick examples to run while learning
 // Practice: switch
 console.log('--- Practice: switch ---');
 const color = 'blue';
 switch (color) { case 'blue': console.log('blue'); break; default: console.log('other'); }
-
+// Exercise section: tasks for you to complete
 // Exercise: switch
 // 1. Create a variable for a color or day.
 // 2. Use a switch statement with at least three cases.
 // 3. Log a different message for each case.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Answer section: canonical solution (view after trying the exercise)
 // Answer: switch
 // Example solution:
 const day = 'Tuesday';

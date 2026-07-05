@@ -26,77 +26,17 @@ const myName = "Ian"
 // Logging to console
 console.log(myAge);
 console.log(myName);
+// Practice section: quick examples to run while learning
 // Practice: class
 console.log('--- Practice: class ---');
 class PracticeDay { constructor(name) { this.name = name; } }
 console.log(new PracticeDay('Test').name);
-
+// Exercise section: tasks for you to complete
 // Exercise: class
 // 1. Create a class with a constructor and at least one method.
 // 2. Extend that class with a subclass.
 // 3. Instantiate the subclass and log the result of the method.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Answer section: canonical solution (view after trying the exercise)
 // Answer: class
 // Example solution:
 class Animal {

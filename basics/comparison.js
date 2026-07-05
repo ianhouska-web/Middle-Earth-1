@@ -36,67 +36,16 @@ console.log(`val9: ${val9} val10: ${val10}`);
 let val11 = (undefined == null);
 let val12 = (undefined === null);
 console.log(`val11: ${val11} val12: ${val12}`);
-
+// Practice section: quick examples to run while learning
 // Practice: comparison
 console.log('--- Practice: comparison ---');
 console.log(2 === 2, 2 !== '2');
-
+// Exercise section: tasks for you to complete
 // Exercise: comparison
 // 1. Compare two values that are the same but different types using == and ===.
 // 2. Compare two objects with the same properties.
 // 3. Log the results and explain the difference.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Answer section: canonical solution (view after trying the exercise)
 // Answer: comparison
 // Example solution:
 console.log('3 == "3"?', 3 == '3');

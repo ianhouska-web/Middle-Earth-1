@@ -26,77 +26,17 @@ isTruthy("val12", {});
 // Undefined Variables
 let var1;
 isTruthy("val13", var1);
-
+// Practice section: quick examples to run while learning
 // Practice: falsy
 console.log('--- Practice: falsy ---');
 const practiceFalsy = '';
 console.log(Boolean(practiceFalsy));
-
+// Exercise section: tasks for you to complete
 // Exercise: falsy
 // 1. Create a list of values: 0, '', null, undefined, NaN.
 // 2. Convert each value to Boolean.
 // 3. Log which values are false.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Answer section: canonical solution (view after trying the exercise)
 // Answer: falsy
 // Example solution:
 const values = [0, '', null, undefined, NaN];

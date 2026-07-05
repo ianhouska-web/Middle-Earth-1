@@ -27,76 +27,16 @@ for (let emp of employees) {
     }
     console.log('--');
 }
-
+// Practice section: quick examples to run while learning
 // Practice: loop flow
 console.log('--- Practice: loop flow ---');
 for (const item of [1, 2]) console.log(item);
-
+// Exercise section: tasks for you to complete
 // Exercise: loop flow
 // 1. Create an array of numbers.
 // 2. Loop through it and skip a value with continue.
 // 3. Stop the loop early with break.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Answer section: canonical solution (view after trying the exercise)
 // Answer: loop flow
 // Example solution:
 const numbers = [10, 20, 30, 40];

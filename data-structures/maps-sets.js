@@ -54,49 +54,19 @@ console.log(`Does have employee: ${team1.has(emp1)}`);
 //Removing Values from a Set
 team1.delete(emp1);
 console.log(`Team1 size: ${team1.size}`);
-
+// Practice section: quick examples to run while learning
 // Practice: map/set
 console.log('--- Practice: map/set ---');
 const practiceMap = new Map([['a', 1]]);
 console.log(practiceMap.get('a'));
 const practiceSet = new Set(['a', 'b']);
 console.log(practiceSet.has('b'));
-
+// Exercise section: tasks for you to complete
 // Exercise: map/set
 // 1. Create a Map and add a few key/value pairs.
 // 2. Create a Set with duplicate values.
 // 3. Log the Map entries and Set values.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Answer section: canonical solution (view after trying the exercise)
 // Answer: map/set
 // Example solution:
 const practiceMapAnswer = new Map();

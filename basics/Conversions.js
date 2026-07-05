@@ -32,71 +32,16 @@ let num2 = 0;
 let bool1 = Boolean(num1);
 let bool2 = Boolean(num2);
 console.log(`Num1: ${bool1} Num2: ${bool2}`);
-
+// Practice section: quick examples to run while learning
 // Practice: conversions
 console.log('--- Practice: conversions ---');
 console.log(Number('10'), String(10), Boolean(0));
-
+// Exercise section: tasks for you to complete
 // Exercise: conversions
 // 1. Convert a string to a number and log its type.
 // 2. Convert a number to a string and log its type.
 // 3. Convert different values to Boolean and log them.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Answer section: canonical solution (view after trying the exercise)
 // Answer: conversions
 // Example solution:
 const text = '42';

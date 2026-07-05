@@ -46,57 +46,16 @@ if(employee.numYearsService > 10) {
 }
 
 employee.annualBonus = (employee.numYearsService > 10) ? 1000 : 500;
-
+// Practice section: quick examples to run while learning
 // Practice: conditional
 console.log('--- Practice: conditional ---');
 const score = 8;
 console.log(score > 5 ? 'pass' : 'fail');
-
+// Exercise section: tasks for you to complete
 // Exercise: conditional
 // 1. Use if / else if / else for a score value.
 // 2. Log different messages for high, medium, and low scores.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Answer section: canonical solution (view after trying the exercise)
 // Answer: conditional
 // Example solution:
 const score2 = 7;

@@ -55,48 +55,17 @@ console.log(`Index 3: ${idx3}`);
 // Does a string contain a substring
 let doesContain = fullName.includes("ska");
 console.log(doesContain);
+// Practice section: quick examples to run while learning
 // Practice: string
 console.log('--- Practice: string ---');
 const practiceText = 'Hello';
 console.log(practiceText.toUpperCase());
-
+// Exercise section: tasks for you to complete
 // Exercise: string
 // 1. Create a sentence string.
 // 2. Log its length, uppercase version, and whether it includes a word.
 // 3. Split the sentence into words and log the array.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Answer section: canonical solution (view after trying the exercise)
 // Answer: string
 // Example solution:
 const sentence = 'JavaScript is fun';

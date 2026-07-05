@@ -58,45 +58,19 @@ const obj3 = {
 const employees = [obj1, obj2];
 console.log(`Is identical object in array: ${employees.includes(obj3)}`); //false
 console.log(`Is same object in array: ${employees.includes(obj1)}`); //true
-
+// Practice section: quick examples to run while learning
 // Practice: arrays
 console.log('--- Practice: arrays ---');
 const practiceArray = ['apple', 'banana'];
 practiceArray.push('cherry');
 console.log(practiceArray);
-
+// Exercise section: tasks for you to complete
 // Exercise: arrays
 // 1. Create an array of three favorite foods.
 // 2. Remove the second item.
 // 3. Add a new food to the end.
 // 4. Log the final array and its length.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Answer section: canonical solution (view after trying the exercise)
 // Answer: arrays
 // Example solution:
 const favoriteFoods = ['pizza', 'sushi', 'tacos'];

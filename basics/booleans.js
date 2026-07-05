@@ -9,11 +9,12 @@ let notTrue = !true;
 console.log(notTrue);
 let notFalse = !false;
 console.log(notFalse);
+// Practice section: quick examples to run while learning
 // Practice: booleans
 console.log('--- Practice: booleans ---');
 const isOpen = false;
 console.log(!isOpen);
-
+// Exercise section: tasks for you to complete
 // Exercise: booleans
 // 1. Declare two boolean variables.
 // 2. Log the results of &&, ||, and !.

@@ -114,12 +114,12 @@ const exercises = {
 `
 };
 for (const [rel, exercise] of Object.entries(exercises)) {
-  const file = path.join(projectRoot, rel);
+  const fileExercise = path.join(projectRoot, rel);
   if (!fs.existsSync(file)) {
     console.error('MISSING', rel);
     continue;
   }
-  let content = fs.readFileSync(file, 'utf8');
+  let contentExercise = fs.readFileSync(file, 'utf8');
   if (content.includes('// Exercise:')) {
     console.log('SKIPPING existing exercise:', rel);
     continue;

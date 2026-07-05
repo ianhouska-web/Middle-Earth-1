@@ -25,78 +25,17 @@ let options = {
 };
 console.log(`Custom Date: ${date1.toLocaleString('en-US', options)}`);
 console.log(`Custom Date: ${date1.toLocaleString('ar-KW',)}`);
-
+// Practice section: quick examples to run while learning
 // Practice: Formatting Dates
 console.log('--- Practice: Formatting Dates ---');
 const now2 = new Date();
 console.log(now2.toLocaleString('en-US', { dateStyle: 'short' }));
-
+// Exercise section: tasks for you to complete
 // Exercise: Formatting Dates
 // 1. Create a Date object.
 // 2. Use toLocaleDateString with options to format the date.
 // 3. Log the formatted strings.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Answer section: canonical solution (view after trying the exercise)
 // Answer: Formatting Dates
 // Example solution:
 const now = new Date();

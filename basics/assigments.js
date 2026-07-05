@@ -37,66 +37,18 @@ console.log(`val7: ${val7} val8: ${val8}`);
 let val9 = 10;
 let val10 = --val9;
 console.log(`val9: ${val9} val10: ${val10}`);
-
+// Practice section: quick examples to run while learning
 // Practice: assignments
 console.log('--- Practice: assignments ---');
 let practiceVal = 5;
 practiceVal += 2;
 console.log(practiceVal);
-
+// Exercise section: tasks for you to complete
 // Exercise: assignments
 // 1. Declare a number variable.
 // 2. Use +=, -=, *=, and /= on it.
 // 3. Log the value after each change.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Answer section: canonical solution (view after trying the exercise)
 // Answer: assignments
 // Example solution:
 let number = 10;

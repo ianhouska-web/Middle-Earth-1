@@ -17,86 +17,17 @@ console.log(`Day of month: ${date5.getDate()}`);
 console.log(`Hours: ${date5.getHours()}`);
 console.log(`Minutes: ${date5.getMinutes()}`);
 console.log(`Seconds: ${date5.getSeconds()}`);
+// Practice section: quick examples to run while learning
 // Practice: date formatting
 console.log('--- Practice: date formatting ---');
 const now = new Date();
 console.log(now.toLocaleDateString());
-
+// Exercise section: tasks for you to complete
 // Exercise: date formatting
 // 1. Create a new Date object.
 // 2. Log the current date in your local format.
 // 3. Log the year, month, and day separately.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Answer section: canonical solution (view after trying the exercise)
 // Answer: date formatting
 // Example solution:
 const today = new Date();

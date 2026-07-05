@@ -29,19 +29,17 @@ let jsonString = `{
 }`;
 let obj = JSON.parse(jsonString);
 console.log(obj);
-
+// Practice section: quick examples to run while learning
 // Practice: JSON
 console.log('--- Practice: JSON ---');
 const parsed = JSON.parse('{"test":1}');
 console.log(parsed);
-
+// Exercise section: tasks for you to complete
 // Exercise: JSON
 // 1. Create a JavaScript object with nested data.
 // 2. Convert it to JSON with JSON.stringify.
 // 3. Parse it back with JSON.parse and log the result.
-
-
-
+// Answer section: canonical solution (view after trying the exercise)
 // Answer: JSON
 // Example solution:
 const data = { firstName: 'Ian', age: 36, skills: ['JS', 'Node'] };

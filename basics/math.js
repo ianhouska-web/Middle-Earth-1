@@ -42,61 +42,16 @@ console.log(`val13: ${val13}`);
 let val14 = 1;
 --val14
 console.log(`val14: ${val14}`);
-
+// Practice section: quick examples to run while learning
 // Practice: math
 console.log('--- Practice: math ---');
 console.log(2 + 3, 4 * 5);
-
+// Exercise section: tasks for you to complete
 // Exercise: math
 // 1. Use +, -, *, /, and % with two numbers.
 // 2. Use exponentiation and log the result.
 // 3. Use increment and decrement operators.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Answer section: canonical solution (view after trying the exercise)
 // Answer: math
 // Example solution:
 console.log('2 + 3 =', 2 + 3);

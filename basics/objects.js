@@ -36,67 +36,18 @@ console.log(`Non-existent value: ${obj3.middleName}`);
 let obj4 = obj3;
 obj4.lastName = "Houska";
 console.log(`Last Name (obj3): ${obj3.lastName}`);
+// Practice section: quick examples to run while learning
 // Practice: object
 console.log('--- Practice: object ---');
 const practiceObj = { one: 1 };
 console.log(practiceObj.one);
-
+// Exercise section: tasks for you to complete
 // Exercise: object
 // 1. Create an object with at least two properties.
 // 2. Add a new property.
 // 3. Delete one property.
 // 4. Loop over the object and log each key and value.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Answer section: canonical solution (view after trying the exercise)
 // Answer: object
 // Example solution:
 const profile = { firstName: 'Ian', lastName: 'Houska' };
