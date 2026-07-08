@@ -1,3 +1,45 @@
+// Validator Functions
+const isStringInputValid = function (input) {
+    return (input) ? true: false;
+}
+
+const isBooleanInputValid = function (input) {
+    return(input === "yes" || input === "no");
+}
+
+const isStartYearValid = function (input) {
+    let numValue = Number(input);
+    if (!Number.isInteger(numValue) || numValue < 1990 || numValue > 2023) {
+        return false;
+    }
+    return true;
+}
+
+const isStartMonthValid = function (input) {
+    let numValue = Number(input);
+    if (!Number.isInteger(numValue) || numValue < 1 || numValue > 12) {
+        return false;
+    }
+    return true;
+}
+
+const isStartDayValid = function (input) {
+    let numValue = Number(input);
+    if (!Number.isInteger(numValue) || numValue < 1 || numValue > 31) {
+        return false;
+    }
+    return true;
+}
+
+// Inputing a Validator function into a code
+if (validator && !validator(value)) {
+    console.error(`--Invalid input` );
+    ProcessingInstruction.exit(1);
+}
+return value;
+
+// Example of Validator Functions
+
 let employee = {
     firstName: "Ian",
     lastName: "Houska",
@@ -45,18 +87,11 @@ const isStartDayValid = function (input) {
     return true;
 }
 
-function transformBooleanValue(input) {
-    return input.toLowerCase() === "yes";
-}
-
-function getInput(prompt, validator, transformer) {
+function getInput(prompt, validator) {
     let value = require('prompt-sync')()(prompt);
     if (validator && !validator(value)) {
         console.error(`--Invalid input` );
         process.exit(1);
-    }
-    if (transformer) {
-        return transformer(value);
     }
     return value;
 }
@@ -71,7 +106,7 @@ function addEmployee() {
     let startDateMonth = getInput("Employee Start Date Month (1-12)", isStartMonthValid);
     let startDateDay = getInput("Employee Start Date Day (1-31)", isStartDayValid);
     employee.startDate = new Date(startDateYear, startDateMonth -1, startDateDay);
-    employee.isActive = getInput("Is employee active (yes or no):", isBooleanInputValid, transformBooleanValue);
+    employee.isActive = getInput("Is employee active (yes or no):", isBooleanInputValid);
     return employee;
 }
 
