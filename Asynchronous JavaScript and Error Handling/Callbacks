@@ -1,0 +1,46 @@
+// THROW - The Throw statement throws a user-defined exception. 
+// Execution of the current function will stop(the statements after throw won't be executed) and control will be passed to the first catch block in the call stack.
+// If no catch block exists among caller functions, the program will terminate
+
+// Import Node FileSystem Module (the callback Version)
+import fs from "node:fs";
+
+fs.readFile('./data.json', "utf8", (err, data) => {
+    if(err) {
+        console.log('Error reading the file');
+        throw err;
+    }
+    const dataObj = JSON.parse(data); //this is when it exists and will run the code
+    console.log(dataObj);
+    console.log("complete");
+});
+
+// If the file doesn't exist(error example)
+import fs from "node.fs";
+
+fs.readFile('./x.json', 'utf8', (err, data) => {
+    if(err) {
+        console.log(' Error reading message');
+        throw err;
+    }
+    const dataObj = JSON.parse(data);
+    console.log(dataObj);
+    console.log("complete");
+});
+
+// Import Node Filesystem(try catch block)
+import fs from "node.fs";
+
+fs.readFile('./x.json', 'utf8', (err, data) => {
+    if(err) {
+        console.log(' Error reading message');
+        throw err;
+    }
+    try {
+        const dataObj = JSON.parse(data);
+        console.log(dataObj);
+        console.log("complete");
+    } catch(err) {
+        console.error('Cannot parse JSON from file');
+    }
+}); // if there is a bad character in the codefile it will pop up "Cannot parse JSOn file"

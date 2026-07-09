@@ -1,0 +1,64 @@
+// PROMISE - The Promise object represents the eventual completion (or failure) of an asynchronous operation and its resulting value.
+
+// Improting the Node filesystem module for promises
+import fs from 'node:fs/promises';
+
+// Writing the data to the file
+const data = JSON.stringify({});
+fs.writeFile("./file1.json", data)
+   .then(() => {
+    return fs.writeFile("./file2.json", data)
+   }) 
+   .then(() => {
+    return fs.writeFile("./file3.json", data)
+   }) // adding a third file 
+   .then(() => {
+    return fs.writeFile("./file4.json", data)
+   }); // adding a fourth file
+
+   // different way to writing the data to the file
+   const data = JSON.stringify({});
+   fs.writeFile("./file1.json", data)
+     .then(() => fs.writeFile("./file2.json", data))
+     .then(() =>fs.writeFile("./file3.json", data))
+     .then(() => fs.writeFile("./file4.json", data));
+
+     // Using Promises (without astnc/await)
+     fs.writeFile("./file1.json", data)
+        .then(() => {
+            console.log("File written");
+        });
+
+    // Using Async/Await 
+    await fs.writeFile("./file1.json", data); // if you want to add more files use this line but change the file1(2,3,etc)
+    console.log("File written");
+
+    // Execute async function
+    writeFileSync().then(() => console.log("Files written")); 
+
+                                    // Promise.all()
+// The Promise.all() static method takes an iterable of promises as input and returns a single promise.
+// This returned promise fulfills when all of the input's promises fulfil(including when an empty iterable is passed)
+// with an array of fulfillment values. It rejects when any of the input's promises rejects, with this firstn rehection reason.
+
+//example of a promise.all()
+
+const promise1 = Promise.resolve(3);
+const promise2 = 42;
+const promise3 = new Promise((resolve, reject) => {
+    setTimeout(resolve, 100, 'foo');
+});
+
+Promise.all;;([promise1, promise2. promise3]).then((values) => {
+    console.log(values);
+});
+// expected output: Array [3, 42,"foo"]
+
+// Excuting Command
+
+Promise.all([ loadData(), getCurrencyConversionData() ])
+   .then(main)
+   .catch((err) => {
+    console.error("Cannot complete startup");
+    throw err;
+   });
