@@ -1,0 +1,23 @@
+{
+  "name": "middle-earth-1",
+  "version": "1.0.0",
+  "description": "Sample npm project",
+  "homepage": "https://github.com/ianhouska-web/Middle-Earth-1#readme",
+  "bugs": {
+    "url": "https://github.com/ianhouska-web/Middle-Earth-1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianhouska-web/Middle-Earth-1.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "addAnswers2.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

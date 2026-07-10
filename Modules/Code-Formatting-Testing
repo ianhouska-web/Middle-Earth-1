@@ -1,0 +1,22 @@
+//             UNIT TESTING
+// Unit testing is where individual componets(or "units") of an application are tested to make sure they behave as the author intended.
+// These tests are usually written for a specific unit testing framework.
+// It is common for these tests to get executed everytime code is committed to a project to ensure the new code does not break application functionality.
+// Unit testing is just one type of testing that complex software projects may leverage.
+
+// JavaScript Testing Frameworks
+// Jest, Mocha, Jasmine, AVA, Vitest
+
+//             CODE COVERAGE         
+// Code coverage is a metric designed to tell you how much of an application is actually tested by the collection of unit tests that have been written for it.
+// While there are different approaches for calculating this metric, it is generally assumed that a higher code coverage number is better than a lower one.
+//It means more application is tested by the unit tests.
+
+//              CODE LINTING
+// Linting is the automated checking of your source code for programmatic and stlistic errors.
+// This is done by using a lint tool(otherwise known as linter) A lint tool is a basic static code anaylzer...
+// Linting is important to reduce errors and improve the overall quality of your code.
+// Using lint tools can help you accelerate development and reduce costs by finding errors earlier.
+
+                // ESLint
+// ESLint statically analyzes your code to quickly find problems. It is built into most text editors and you can run ESLint as part of your continuous intergration pipeline.
