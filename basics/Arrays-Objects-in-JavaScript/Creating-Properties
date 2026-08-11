@@ -1,0 +1,42 @@
+// Creating a ContentBlock Object.
+
+const contentBlock = {
+    id: "vpnpolicy-001",
+    title: "Your VPN Access",
+    description: "You will be given..."
+};
+
+// single block
+
+const contentBlockPrototype = {
+    id: "no id",
+    title: "no title",
+    description: "no description"
+};
+const contentBlock1 =
+    Object.create(contentBlockPrototype); // this will come up as no desription
+
+// how to set properties to a block
+const contentBlock1 =
+    ObjectBlock1.description = "You will ..."; // this is Dot Notation
+contentBlock1.id = "vpnaccess-001";
+contentBlock1.color = "#00aced"; // this will only color the object.
+
+// Dot notation  is the shortest way to access properties.
+// can't be used for illegal variable names
+// Mainly use the Dot Notation not the Bracket Notation.
+
+// or
+
+contentBlock1["description"] = "You will..."; // This is Bracket Notation.
+
+// Bracket Notation is more flexible.
+// Can compute property name at runtime
+
+// Computing Property names at Runtime
+// Example:
+for (let i = 0, 1 < 5; i++) {
+    contentBlock["info" + i] = "info";
+};
+
+

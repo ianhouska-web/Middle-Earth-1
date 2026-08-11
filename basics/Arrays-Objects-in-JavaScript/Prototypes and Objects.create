@@ -1,0 +1,42 @@
+                  //JavaScript Object Prototypes
+// Many objects are predefined for you(which means you don't have to write them yourself).
+// "Objects" link to prototypes which define their behavior(object behavior). Like what makes a date a date, or an array an array.
+// Calling a property on an object will look through the prototype chain to fill in that object.
+// Object literals link to Object.prototype
+// Object.prototypes sits at the end of prototype chains.
+// An object's prototype can be set with either the "new" syntax or by using Object.create()
+
+
+// Example of how JavaScript uses prototypes
+const myDate = newDate(); // myDate is an empty object 
+myDatye = getDay(); // JavaScript will then pull from it's built in prototypes to fill in that object getDay.
+
+// Creating Objects
+
+// "New" Syntax (a short-hand way to write)
+const myDate = new Date();
+myDate = getDay();
+// Pulls from date prototypes
+
+// Object Literal (long-way to write but more detailed)
+const myObj = {
+
+} // pulls from object prototypes or Object.prototype
+
+// Difference between object and Objects
+
+// object refers to the general word for the datatype.
+
+// Object refers to a standard built-in object. All objects link to Object.prototype
+
+// Creating Objects with Object.create
+    // Example:
+    const myObj = Object.create(Object.prototype);
+
+    // Full example:
+    const courseProto = {
+        title: "No title",
+        id: "No id",
+        author: "No author"
+    };
+    const newCourse = Object.create(courseProto);

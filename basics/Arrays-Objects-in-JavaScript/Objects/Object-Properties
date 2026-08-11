@@ -1,0 +1,38 @@
+// Arrays are objects
+// All objects link to a prototype
+
+// Objects are containers for other datatypes that are passed by via reference that are linked to a prototype
+
+// User  ( all of these are properties)              
+// id--number
+// username--string
+// timezone--string
+
+// Example of an Object
+const myCourse = {
+    title: "Arrays and Objects in JavaScript", //( title is called a key while "anything in quotes" is a value.
+    id: "ps_js-arrobj", // commas(,)are required after each value besides the last value.
+    author: "Ian Houska"
+};
+
+// Example of a JSON Object
+const myCourse = {
+    "title": "Arrays and Objects", // in a JSON object keys must always be in ("Quotes")
+    "id": "ps_js-arrobj",
+    "author": "Ian Houska"
+}; // you don't need to use ; at the end of a JSON literal
+
+// Creating Objects with "new" Syntax
+
+// Exampale of a "new" Syntax
+const myDate = new Date();
+myDate.getDay();
+
+// Object Liteals
+
+// Example of an Object Literal
+const myObj = {
+    title: "",
+    id: "",
+    author: "",
+};

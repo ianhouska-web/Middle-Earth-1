@@ -1,0 +1,66 @@
+  //    Accessing Properties on Objects
+contentBlock.title; // Dot Notation
+contentBlock["title"]; // Bracket Notation
+
+// Example of how to access properties on an object 
+// Code will not run its just an example.
+
+const updateCardDiswplay = function() {
+    let contentBlock = currentCourse.content[currentContentBlockIndex];
+    document.getElementById("cbTitle").innerHTML = contentBlock.title;
+    document.getElementById("cbContent").innerHTML = contentBlock.description;
+  
+    // added code for property, doesn't work correctly. Adds color to all blocks, not just the one we want.
+    document.getElementById("cardBody").style.backgroundColor = contentBlock.color;
+
+    // tweeked code by adding "undefined" but this will work only one way. Still not correct.
+    document.getElementById("cardBody").style.backgroundColor = contentBlock.color = "undefined";
+
+    // This is the correct way to access the color block.
+    if (contentBlock.color == undefined) // using the "undefined" Operator. if (!object.property == undefined)
+        document.getElementById("cardBody").style.backgroundColor = "white";
+    else
+        document.getElementById("cardBody").style.backgroundColor = contentBlock.color;
+
+    // This way is also correct
+    if (contentBlock.hasOwn("color")) // using the "hasOwn" Operator
+        document.getElementById("cardBody").style.backgroundColor = contentBlock.color;
+    else
+        document.getElementById("cardBody").style.backgroundColor = "white";
+   
+    // This is also correct
+    if ("color" in contentBlock) // using the "in" Operator
+        document.getElementById("cardBody").style.backgroundColor = contentBlock.color;
+    else
+        document.getElementById("cardBody").style.backgroundColor = "white";
+
+    // Using "hasOwn"(propertyName")
+        // example:
+        object.hasOwn("propertyName")
+
+        objectName.hasOwn("property name") // this would be true.
+        objectName.hasOwn("prototype property") // this would be false.
+
+    // Using the "in" Operator
+
+    "propertyName" in objectName
+
+    "color" in contentBlock // this would be true.
+    "hasOwn" in contentBlock // this would also be true.
+};
+
+// Using the Prototype Chain to Set Default Values
+    // example:
+    const contentBlockPrototype = {
+        id: "no id",
+        title: "no title",
+        description: "no content",
+        color: "white"
+    };
+    // Full code with using the Prototype Chain(easiest way)
+    const updateCardDiswplay = function() {
+    let contentBlock = currentCourse.content[currentContentBlockIndex];
+    document.getElementById("cbTitle").innerHTML = contentBlock.title;
+    document.getElementById("cbContent").innerHTML = contentBlock.description;
+    document.getElementById("cardBody").style.backgroundColor = contentBlock.color;// added line(inputs the Prototype Chain)
+    };
